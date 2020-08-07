@@ -12,6 +12,32 @@
     <meta property="og:description" content="Descripción de mi página para facebook">
     <meta property="og:image" itemprop="image" content="https://picsum.photos/200/300">
     <meta property="og:url" itemprop="url" content="https://riossuarezcarlos.github.io/seo/">
+
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@carlosriossuares">
+    <meta name="twitter:creator" content="@carlosriossuares">
+    <meta name="twitter:title" content="Título de mi página para facebook">
+    <meta name="twitter:description" content="Descripción de mi página para facebook">
+    <meta name="twitter:image" content="https://picsum.photos/200/300">
+
+    <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+      
+        return t;
+      }(document, "script", "twitter-wjs"));</script>
+
 </head>
 <body>
     <div id="fb-root"></div>
@@ -19,11 +45,18 @@
     
     <header>
         header
+        
         <div class="fb-share-button" data-href="https://riossuarezcarlos.github.io/seo/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Friossuarezcarlos.github.io%2Fseo%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+    
+        <a href="https://twitter.com/intent/tweet" class="twitter-share-button" data-show-count="false">
+        Tweet
+        </a>
+        
     </header>
     <main>
         <h1>Título de la página</h1>
         <main><img src="./dog.png" alt="Perro"></main>
+
         <section>
             <h2>Título 2</h2>
         </section>
